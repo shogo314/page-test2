@@ -4,28 +4,28 @@
         <loc>https://shogo314.github.io/page-test2/dev/</loc>
         <lastmod>2025-04-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://shogo314.github.io/page-test2/dev/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://shogo314.github.io/page-test2/devja/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://shogo314.github.io/page-test2/dev/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shogo314.github.io/page-test2/deven/"/>
     </url>
     <url>
         <loc>https://shogo314.github.io/page-test2/dev/topic1/</loc>
         <lastmod>2025-04-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://shogo314.github.io/page-test2/dev/topic1/"/>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://shogo314.github.io/page-test2/devja/topic1/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://shogo314.github.io/page-test2/dev/topic1/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shogo314.github.io/page-test2/deven/topic1/"/>
     </url>
     <url>
-        <loc>https://shogo314.github.io/page-test2/dev/ja/</loc>
+        <loc>https://shogo314.github.io/page-test2/dev/en/</loc>
         <lastmod>2025-04-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://shogo314.github.io/page-test2/dev/ja/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://shogo314.github.io/page-test2/dev"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shogo314.github.io/page-test2/dev/en/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://shogo314.github.io/page-test2/dev"/>
     </url>
     <url>
-        <loc>https://shogo314.github.io/page-test2/dev/ja/topic1/</loc>
+        <loc>https://shogo314.github.io/page-test2/dev/en/topic1/</loc>
         <lastmod>2025-04-21</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ja" href="https://shogo314.github.io/page-test2/dev/ja/topic1/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://shogo314.github.io/page-test2/devtopic1/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://shogo314.github.io/page-test2/dev/en/topic1/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://shogo314.github.io/page-test2/devtopic1/"/>
     </url>
 </urlset>
