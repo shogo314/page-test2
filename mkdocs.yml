@@ -1,6 +1,7 @@
 site_name: Mojo Library Docs
 docs_dir: docs
 site_dir: site
+site_url: https://shogo314.github.io/page-test2/
 
 theme:
   name: material
@@ -15,20 +16,20 @@ extra:
     provider: mike
 
 nav:
-  - Home: index.md
-  - Topic1: topic1.md
+  - ホーム: index.md
+  - トピック1: topic1.md
 
 plugins:
   - i18n:
       docs_structure: suffix
       languages:
-        - locale: en
-          default: true
-          name: English
-          build: true
         - locale: ja
           name: 日本語
+          default: true
+          build: true
+        - locale: en
+          name: English
           build: true
           nav_translations:
-            Home: ホーム
-            Topic1: トピック1
+            ホーム: Home
+            トピック1: Topic1
