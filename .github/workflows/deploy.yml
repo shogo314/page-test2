@@ -1,9 +1,29 @@
-- name: update-docs
-  run: |
-    pip install mike
-    mike deploy v2.0-dev
-    mike set-default v2.0-dev
-    git config user.name "github-actions[bot]"
-    git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-    git commit -am "Update latest version to v2.0-dev"
-    git push
+name: Deploy Docs
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+
+      - name: Install mike and deploy docs
+        run: |
+          pip install mike
+          mike deploy v2.0-dev
+          mike set-default v2.0-dev
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Update latest version to v2.0-dev"
+          git push
