@@ -21,9 +21,9 @@ jobs:
       - name: Install mike and deploy docs
         run: |
           pip install mkdocs-material mkdocs mkdocs-static-i18n mike
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           mike deploy v2.0-dev
           mike set-default v2.0-dev
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -am "Update latest version to v2.0-dev"
+          git commit -am "Update latest version to v2.0-dev" || echo "No changes to commit"
           git push
