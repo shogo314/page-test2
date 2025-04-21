@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -17,10 +20,13 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: 3.x
-
-      - name: Install mike and deploy docs
+      
+      - name: Install dependencies
         run: |
           pip install mkdocs-material mkdocs mkdocs-static-i18n mike
+
+      - name: Deploy docs using mike
+        run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           mike deploy v2.0-dev
