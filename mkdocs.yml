@@ -6,6 +6,8 @@ theme:
   name: material
   features:
     - navigation.tabs
+    - navigation.indexes
+    - navigation.expand
     - version-selector
 
 extra:
@@ -13,4 +15,20 @@ extra:
     provider: mike
 
 nav:
-  - ホーム: index.md
+  - Home: index.md
+  - Topic1: topic1.md
+
+plugins:
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: ja
+          name: 日本語
+          build: true
+          nav_translations:
+            Home: ホーム
+            Topic1: トピック1
