@@ -20,7 +20,7 @@ jobs:
 
       - name: Install mike and deploy docs
         run: |
-          pip install mike
+          pip install mkdocs-material mkdocs mkdocs-static-i18n mike
           mike deploy v2.0-dev
           mike set-default v2.0-dev
           git config user.name "github-actions[bot]"
