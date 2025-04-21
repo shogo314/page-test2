@@ -1,0 +1,16 @@
+site_name: Mojo Library Docs
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - version-selector
+
+extra:
+  version:
+    provider: mike
+
+nav:
+  - ホーム: index.md
