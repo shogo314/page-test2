@@ -1,2 +1,2 @@
 # Mojo Library Docs
-This is `dev`.
+This is `v1.0`.

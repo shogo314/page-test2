@@ -1,4 +1,4 @@
-site_name: Mojo Library Docs
+site_name: ac-library-mojo Docs
 docs_dir: docs
 site_dir: site
 site_url: https://shogo314.github.io/page-test2/
@@ -17,7 +17,7 @@ extra:
 
 nav:
   - ホーム: index.md
-  - トピック1: topic1.md
+  - コントリビュート: contribute.md
 
 plugins:
   - i18n:
@@ -32,4 +32,4 @@ plugins:
           build: true
           nav_translations:
             ホーム: Home
-            トピック1: Topic1
+            コントリビュート: Contribute

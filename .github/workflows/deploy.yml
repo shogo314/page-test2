@@ -1,0 +1,9 @@
+- name: mike で latest バージョンを更新
+  run: |
+    pip install mike
+    mike deploy v2.0-dev
+    mike set-default v2.0-dev
+    git config user.name "github-actions"
+    git config user.email "github-actions@github.com"
+    git commit -am "Update latest version to v1.0-dev"
+    git push
