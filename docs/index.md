@@ -1,2 +1,2 @@
 # Mojo Library Docs
-これは `dev` です。
+これは `v1.0` です。
