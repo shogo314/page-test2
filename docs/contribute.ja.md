@@ -7,13 +7,13 @@
 ### インストール
 
 ```
-$ pip3 install online-judge-verify-helper
+pip3 install online-judge-verify-helper
 ```
 
 ### 実行
 
 ```
-$ oj-verify run
+oj-verify run
 ```
 
 初回は時間がかかります。
@@ -25,7 +25,7 @@ $ oj-verify run
 ### インストール
 
 ```
-$ pip3 install mkdocs mkdocs-material mkdocs-static-i18n mike
+pip3 install mkdocs mkdocs-material mkdocs-static-i18n mike
 ```
 
 ### ドキュメントの作成

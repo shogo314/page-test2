@@ -22,7 +22,6 @@ nav:
 
 plugins:
   - search:
-      lang: auto
   - i18n:
       docs_structure: suffix
       languages:
